@@ -1,0 +1,19 @@
+[package]
+name = "g5-13"
+version = "1.0.0"
+edition = "2021"
+authors = ["Ahmad Ali Parr <snapkittywest@pm.me>"]
+description = "g₅(13) — exact rational verification of the Jacobi identity"
+license = "BSL-1.1"
+
+[[bin]]
+name = "verify"
+path = "src/main.rs"
+
+[[bin]]
+name = "generate_lean"
+path = "src/generate_lean.rs"
+
+[dependencies]
+num-rational = "0.4"
+num-traits   = "0.2"

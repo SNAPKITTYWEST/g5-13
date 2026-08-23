@@ -1,0 +1,43 @@
+SOVEREIGN TRI-LICENSE
+=====================
+Copyright (C) 2026 Ahmad Ali Parr, Jessica L. Williams / SNAPKITTYWEST
+Bel Esprit D'Accord Irrevocable Trust
+
+Choose any one of the three licenses below.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LICENSE 1 — AGPL-3.0-only
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Full text: https://www.gnu.org/licenses/agpl-3.0.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LICENSE 2 — BSL 1.1 → MIT (Commercial, converts 2029-01-01)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Licensor:    Ahmad Ali Parr / SNAPKITTYWEST
+  Licensed Work: g₅(13) Lie Algebra Formalization
+  Change Date: 2029-01-01
+  Change License: MIT
+Contact: snapkittywest@pm.me
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LICENSE 3 — MIT (Post-2029)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROTECTED INVENTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. The F5(p) prime deformation family of Lie algebras over ℤ[1/12],
+     parameterized by primes p ≡ 1 (mod 12), λ_p = (p mod 12)/12.
+
+  2. g₅(13) as a rank-5 non-crystallographic extension of F4 with
+     Cartan entry -1/12, dimension 1245, and 1240 roots.
+
+  3. Computational reflection proof architecture: Rust exact rational
+     verification → Lean 4 `by decide` certificate generation.
+
+  4. Applications of the F5(p) family in post-quantum cryptography
+     using prime-indexed multiplicity vectors.
+
+Ahmad Ali Parr / Jessica L. Williams / SNAPKITTYWEST / 2026
