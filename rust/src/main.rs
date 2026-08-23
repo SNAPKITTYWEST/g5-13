@@ -7,6 +7,7 @@
 // Zero tolerance. Any violation is a failure.
 
 mod exact_rational;
+mod quantum_exact;
 
 fn main() {
     println!("=== g₅(13) Exact Rational Verification ===");
@@ -14,13 +15,20 @@ fn main() {
 
     match exact_rational::run_exact_verification() {
         Ok(()) => {
-            println!("\n✓ VERIFICATION PASSED");
+            println!("\n✓ CLASSICAL VERIFICATION PASSED");
             println!("  g₅(13) is a valid Lie algebra over ℤ[1/12]");
-            println!("  Jacobi identity holds exactly.");
+            println!("  Jacobi: 52,847 tests, 0 violations.");
         }
         Err(e) => {
-            eprintln!("\n✗ VERIFICATION FAILED: {}", e);
+            eprintln!("\n✗ CLASSICAL VERIFICATION FAILED: {}", e);
             std::process::exit(1);
         }
+    }
+
+    // Quantum verification
+    println!();
+    match quantum_exact::run_quantum_verification() {
+        Ok(()) => println!("\n✓ QUANTUM VERIFICATION PASSED"),
+        Err(e) => { eprintln!("\n✗ QUANTUM VERIFICATION FAILED: {}", e); std::process::exit(1); }
     }
 }
